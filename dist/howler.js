@@ -896,7 +896,7 @@
                   self._emit('stop', sound._id);
                 }
 
-                return self;
+                continue;
               }
 
               if (typeof sound._node.bufferSource.stop === 'undefined') {
